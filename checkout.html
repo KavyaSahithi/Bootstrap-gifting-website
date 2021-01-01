@@ -32,29 +32,26 @@
     </style>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/minty/bootstrap.min.css"
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sketchy/bootstrap.min.css"
     />
   </head>
-  <body class="bg-light">
+  <body class="bg-warning text-dark">
     <div class="container">
       <main>
         <div class="py-5 text-center">
-          <img
-            class="d-block mx-auto mb-4"
-            src="/docs/5.0/assets/brand/bootstrap-logo.svg"
-            alt=""
-            width="72"
-            height="57"
-          />
           <h2>Checkout form</h2>
           <p class="lead">
-            Below is an example form built entirely with Bootstrap’s form
-            controls. Each required form group has a validation state that can
-            be triggered by attempting to submit the form without completing it.
+            Please fill the below form & select checkout option. The payment for your request will not be deducted until checking availability of seasonal products & addressing your additional notes. You will be notified via email about your exact product with pictures & can complete payment after the same.
           </p>
+          <hr />
+          <a
+            class="btn btn-light btn-lg btn-outline-secondary"
+            href="./index.html"
+            >Back Home</a
+          >
         </div>
 
-        <div class="row g-3">
+        <!--<div class="row g-3">
           <div class="col-md-5 col-lg-4 order-md-last">
             <h4 class="d-flex justify-content-between align-items-center mb-3">
               <span class="text-muted">Your cart</span>
@@ -108,7 +105,9 @@
               </div>
             </form>
           </div>
+        -->
           <div class="col-md-7 col-lg-8">
+            
             <h4 class="mb-3">Billing address</h4>
             <form class="needs-validation" novalidate>
               <div class="row g-3">
@@ -258,6 +257,24 @@
                   >Save this information for next time</label
                 >
               </div>
+              <hr>
+              <h4 class="mb-3">Additional notes & instructions</h4>
+            <form class="needs-validation" novalidate>
+              <div class="row g-3">
+                <div class="col-sm-6">
+                  <label for="notes" class="form-label">Special notes/ requests</label>
+                  <textarea
+                    class="form-control"
+                    id="notes"
+                    placeholder=""
+                    value=""
+                    required
+                  ></textarea>
+                  <div class="invalid-feedback">
+                    Please type none if no notes.
+                  </div>
+                </div>
+                
 
               <hr class="my-4" />
 
@@ -357,19 +374,26 @@
                   <div class="invalid-feedback">Security code required</div>
                 </div>
               </div>
-
-              <hr class="my-4" />
+            
+            
+           
 
               <button class="w-100 btn btn-primary btn-lg" type="submit">
                 Continue to checkout
               </button>
+              <hr />
+              <a
+                class="btn btn-light btn-lg btn-outline-secondary"
+                href="./index.html"
+                >Back Home</a
+              >
             </form>
           </div>
         </div>
       </main>
 
       <footer class="my-5 pt-5 text-muted text-center text-small">
-        <p class="mb-1">&copy; 2017–2020 Company Name</p>
+        <p class="mb-1">&copy; 2020 Unicorn Favours</p>
         <ul class="list-inline">
           <li class="list-inline-item"><a href="#">Privacy</a></li>
           <li class="list-inline-item"><a href="#">Terms</a></li>

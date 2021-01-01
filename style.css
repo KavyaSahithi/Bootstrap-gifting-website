@@ -55,6 +55,11 @@
   background-color: #e5e5e5;
 }
 
+.inline-image {
+  padding-top: 40px;
+  width: 30vw;
+}
+
 /*
  * Extra utilities
  */
