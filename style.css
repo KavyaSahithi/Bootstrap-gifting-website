@@ -13,7 +13,7 @@
 
 .site-header a {
   color: #8e8e8e;
-  transition: color .15s ease-in-out;
+  transition: color 0.15s ease-in-out;
 }
 
 .site-header a:hover {
@@ -42,8 +42,8 @@
   right: 10px;
   bottom: 10%;
   left: 10px;
-  content: "";
-  background-color: rgba(255, 255, 255, .1);
+  content: '';
+  background-color: rgba(255, 255, 255, 0.1);
   border-radius: 5px;
 }
 
@@ -56,20 +56,19 @@
 }
 
 .inline-image {
-  padding-top: 40px;
-  width: 30vw;
+  width: 80%;
 }
 
 /*
  * Extra utilities
  */
 
-.flex-equal>* {
+.flex-equal > * {
   flex: 1;
 }
 
 @media (min-width: 768px) {
-  .flex-md-equal>* {
+  .flex-md-equal > * {
     flex: 1;
   }
 }
